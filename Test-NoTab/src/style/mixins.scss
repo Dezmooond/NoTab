@@ -1,0 +1,37 @@
+@mixin title {
+    font-family: 'Montserrat';
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+@mixin secondary-text {
+    font-size: 18px;
+	line-height: 25px;
+}
+
+@mixin font-style ($font-family, $font-weight, $font-size, $line-height) { 
+    font-family: $font-family; 
+    font-style: normal; 
+    font-weight: $font-weight; 
+    font-size: $font-size; 
+    line-height: $line-height; 
+}
+
+@mixin form-field {
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: inherit;
+    border: 2px solid #5C5C5C;
+    padding: 26px 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+}
+
+@mixin vertically-center {
+    display: flex;
+	align-items: center;
+}

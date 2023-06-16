@@ -1,0 +1,47 @@
+.slider {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+	display: flex;
+	width: 60%;
+	overflow: hidden;
+}
+
+.slide-img {
+	height: 300px;
+}
+  
+.slide {
+	display: flex;
+	justify-content: space-around;
+	flex: 0 0;
+}
+
+.btn {
+	background: pink;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.dot {
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	border-radius: 50%;
+	background-color: #aaa;
+	cursor: pointer;
+	border: none;
+}
+
+.active {
+	background-color: rgb(238, 91, 115);
+}
